@@ -1,14 +1,14 @@
-import 'style.css'
-import 'src/components/styles/settings/base.css'
-import 'src/components/styles/generic/reset.css'
+import './style.css'
+import './src/components/styles/settings/base.css'
+import './src/components/styles/generic/reset.css'
 
-import Header from 'pages/header/index'
-import Home from 'pages/home/index'
-import Promotions from 'pages/promotions'
-import Forms from 'pages/forms'
-import Meet from 'pages/meet-premium-lager'
-import Institutional from 'pages/institutional-video'
-import Footer from 'pages/footer'
+import Header from './pages/header/index'
+import Home from './pages/home/index'
+import Promotions from './pages/promotions'
+import Forms from './pages/forms'
+import Meet from './pages/meet-premium-lager'
+import Institutional from './pages/institutional-video'
+import Footer from './pages/footer'
 
 const $root = document.querySelector('#root')
 const $header = Header()
