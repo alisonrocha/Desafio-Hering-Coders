@@ -1,0 +1,29 @@
+/* ===== VARIABLES ====== */
+@font-face {
+  font-family: bebasNeue;
+  src: url(./../../../../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: evanstonAlehouse;
+  src: url(./../../../../assets/fonts/Evanston-Alehouse.otf);
+}
+
+:root {
+  --section-height: 74rem;
+  /* colors */
+  --hue: 37;
+  /* HSL color mode */
+
+  --primary-color: hsl(var(--hue) 100% 50%);
+  --secundary-color: hsl(0 0% 0%);
+  --body-color: hsl(0 0% 100%);
+
+  /* fonts*/
+  --title-font-size: 1.875rem;
+  --text-font-size: 1.125rem;
+
+  --title-font: bebasNeue, sans-serif;
+  --spotlight-font: evanstonAlehouse, sans-serif;
+  --text-font: arial, sans-serif;
+}

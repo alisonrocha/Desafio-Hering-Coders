@@ -1,0 +1,80 @@
+.section-forms {
+  background-color: var(--primary-color);
+
+  height: auto;
+}
+
+.section-forms .container {
+  padding: 5rem 0;
+}
+
+.section-forms img {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 17rem;
+}
+
+.section-forms p {
+  padding-top: 2rem;
+  text-align: center;
+  color: var(--body-color);
+}
+
+.section-forms form {
+  padding-top: 2rem;
+  display: grid;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.section-forms form input {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 40px;
+  border: 0;
+  font-size: var(--title-font);
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}
+
+.section-forms form input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px rgb(78, 77, 77);
+}
+
+.section-forms form .button {
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .section-forms .container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding: 7rem 0;
+  }
+
+  .section-forms .text-spotlight {
+    font-size: 3rem;
+    max-width: 45rem;
+  }
+
+  .section-forms .image-mussum {
+    padding-left: 3rem;
+  }
+
+  .section-forms .forms-rigth {
+    padding-right: 2rem;
+  }
+
+  .section-forms form {
+    display: flex;
+  }
+
+  .section-forms form input {
+    height: 3.1rem;
+    font-size: 1rem;
+  }
+}

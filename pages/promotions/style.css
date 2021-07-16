@@ -1,0 +1,41 @@
+.section-promotions {
+  background-color: var(--body-color);
+  height: auto;
+  padding: 5rem 0;
+}
+
+.section-promotions .title {
+  text-align: center;
+  padding: 0 1rem;
+  color: var(--primary-color);
+}
+
+.section-promotions .images {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.section-promotions .btn {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .section-promotions {
+    padding: 8rem 0;
+  }
+  .section-promotions .title {
+    font-size: 3rem;
+  }
+  .section-promotions .images {
+    display: flex;
+    height: 28rem;
+    gap: 4rem;
+  }
+
+  .section-promotions .images img {
+    height: 100%;
+  }
+}
