@@ -1,5 +1,6 @@
 {
   "version": "0.0.0",
+  "homepage": "https://blackisfridiscacildis.netlify.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

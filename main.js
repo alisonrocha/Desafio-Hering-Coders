@@ -4,12 +4,12 @@ import './src/components/styles/generic/reset.css'
 
 import Header from './pages/header/index'
 import Home from './pages/home/index'
-import Promotions from './pages/promotions'
-import Forms from './pages/forms'
-import Meet from './pages/meet-premium-lager'
-import Institutional from './pages/institutional-video'
-import Footer from './pages/footer'
-import Modal from './src/components/modal'
+import Promotions from './pages/promotions/index'
+import Forms from './pages/forms/index'
+import Meet from './pages/meet-premium-lager/index'
+import Institutional from './pages/institutional-video/index'
+import Footer from './pages/footer/index'
+import Modal from './src/components/modal/index'
 
 const $root = document.querySelector('#root')
 const $header = Header()
