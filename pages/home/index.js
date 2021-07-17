@@ -5,7 +5,7 @@ function Home() {
   <div class="section-home">
     <div class="container">
       <div class="image-long">
-        <img src="../assets/images/img-cerveja-long.png" alt="imagem de uma cerveja premium long">
+        <img src="/../assets/images/img-cerveja-long.png" alt="imagem de uma cerveja premium long">
       </div>
       <div class="text-long text-spotlight">
         <p>
