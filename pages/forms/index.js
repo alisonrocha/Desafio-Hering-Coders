@@ -16,13 +16,13 @@ function Forms() {
         <div>
           <form id="form">
             <div>
-              <input type="text" id="nome" placeholder="Nome:" />
+              <input type="text" id="name" placeholder="Nome:" required />
             </div>
             <div>
-              <input type="email" id="email" placeholder="E-mail"/>
+              <input type="email" id="email" placeholder="E-mail" required/>
             </div>
             <div class="button">
-              <button class="button-black" type="submit">Enviar</button>
+              <button class="button-black" id="submit" type="submit">Enviar</button>
             </div>
           </form>
         </div>

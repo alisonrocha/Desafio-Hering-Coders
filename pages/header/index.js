@@ -4,7 +4,7 @@ function Header() {
   return `
     <header id="header">
       <nav class="container"> 
-        <div class="menu">
+        <div id="menu" class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Promoção</a></li>
             <li><a class="title" href="#about">Baixe o Regulamento</a></li>
@@ -12,8 +12,8 @@ function Header() {
           </ul>
         </div>
         
-        <div class="toggle icon-menu"></div>
-        <div class="toggle icon-close"></div>
+        <div id="open" class="toggle icon-menu"></div>
+        <div id="closeMenu" class="toggle icon-close"></div>
       </nav>
     </header>
   `

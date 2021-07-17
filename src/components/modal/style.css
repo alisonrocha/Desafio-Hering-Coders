@@ -1,0 +1,50 @@
+#ismodal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #8676767d;
+}
+
+.modal {
+  position: absolute;
+  height: 25rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  top: 20rem;
+}
+
+.modal .container {
+  position: relative;
+  background: white;
+  text-align: center;
+  height: 21rem;
+  width: 36rem;
+  align-items: center;
+  display: flex;
+  box-shadow: 1px 1px 5px var(--primary-color);
+}
+
+.modal .toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.modal p {
+  max-width: 29rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modal span {
+  color: var(--primary-color);
+}
+
+@media (min-width: 1200px) {
+  .modal {
+    top: 7rem;
+  }
+}

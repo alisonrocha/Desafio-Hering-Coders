@@ -9,6 +9,7 @@ import Forms from './pages/forms'
 import Meet from './pages/meet-premium-lager'
 import Institutional from './pages/institutional-video'
 import Footer from './pages/footer'
+import Modal from './src/components/modal'
 
 const $root = document.querySelector('#root')
 const $header = Header()
@@ -18,8 +19,18 @@ const $forms = Forms()
 const $meet = Meet()
 const $institutional = Institutional()
 const $footer = Footer()
+const $modal = Modal()
+
+localStorage.clear()
 
 $root.insertAdjacentHTML(
   'afterbegin',
-  $header + $home + $promotions + $forms + $meet + $institutional + $footer
+  $header +
+    $home +
+    $promotions +
+    $forms +
+    $meet +
+    $institutional +
+    $footer +
+    $modal
 )
