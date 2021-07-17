@@ -1,8 +1,8 @@
 import './style.css'
 
 function Modal() {
-  const name = localStorage.getItem('name')
-  if (name !== null) {
+  if (localStorage.getItem('name') !== null) {
+    const name = localStorage.getItem('name')
     return `
     <div id="ismodal">
     <div class="modal">

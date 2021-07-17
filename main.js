@@ -21,16 +21,15 @@ const $institutional = Institutional()
 const $footer = Footer()
 const $modal = Modal()
 
+console.log($modal)
+
 localStorage.clear()
 
 $root.insertAdjacentHTML(
   'afterbegin',
-  $header +
-    $home +
-    $promotions +
-    $forms +
-    $meet +
-    $institutional +
-    $footer +
-    $modal
+  $header + $home + $promotions + $forms + $meet + $institutional + $footer
 )
+
+if ($modal != undefined) {
+  $root.insertAdjacentHTML('afterbegin', $modal)
+}
